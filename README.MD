@@ -1,6 +1,13 @@
 # telegram-GPT (Bot)
 
-How to deploy bot on Google Cloud [>>>](https://habr.com/ru/articles/488560/)
+![version](https://img.shields.io/badge/version-1.0.0-yellowgreen)
+![licence](https://img.shields.io/badge/license-MIT-brightgree)
+![open pr](https://img.shields.io/github/issues-pr-raw/betelgeuseAS/telegram-GPT.svg)
+![open issues](https://img.shields.io/github/issues-raw/betelgeuseAS/telegram-GPT.svg)
+![repo size](https://img.shields.io/github/repo-size/betelgeuseAS/telegram-GPT.svg)
+![author](https://img.shields.io/badge/author-Andrew%20Samchuk-orange)
+
+Now you can make requests to chatGPT from Telegram using this bot.
 
 ### Create Telegram token
 1. Got to Telegram and search BotFather or [link](https://t.me/BotFather).
@@ -25,3 +32,6 @@ Stop `make stop` - stop Docker image.
 Via NPM:  
 Run `npm run dev` - launch dev mode.  
 Run`npm run start` - launch prod mode.
+
+### Deploy
+How to deploy bot on Google Cloud - [link](https://habr.com/ru/articles/488560/)
